@@ -1,0 +1,15 @@
+.idea/
+.history/
+.terraform/
+.terraform.*
+*.tfstate
+*.tfstate.backup
+.DS_Store
+.env
+.venv
+env/
+env1/
+venv/
+ENV/
+logs/*
+*.pem
