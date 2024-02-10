@@ -3,6 +3,14 @@
 
 This repository contains the infrastructure as code (IaC) to create a self-hosted runner for GitHub Actions. The runner is created in an EC2 instance and is managed by Terraform.
 
+What is a runner?
+
+A runner is a server that runs the GitHub Actions. It can be hosted by GitHub or you can host it yourself. A self-hosted runner is a runner that you can host yourself. You can use self-hosted runners to run workflows in a private repository or in a repository in an enterprise account.
+
+The self-hosted runner can be used to run workflows in a private repository or in a repository in an enterprise account. The runner can be used to run jobs in a workflow, and it can be used to run multiple jobs concurrently.
+
+By default, GitHub provides runners for you, but you can also host your own runners. Self-hosted runners offer more control of hardware, operating system, and software tools than GitHub-hosted runners provide.
+
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html)
