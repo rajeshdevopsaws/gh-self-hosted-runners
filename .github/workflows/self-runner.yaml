@@ -5,9 +5,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Build and Test
-    runs-on: self-hosted
-    labels:
-      - chadz
+    runs-on: ["self-hosted","chadz"]
 
     steps:
     - name: Checkout repository
